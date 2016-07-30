@@ -1,0 +1,27 @@
+hr{
+  border-top: 1px solid gray;
+  margin-top: 0%;
+}
+#submit_btn{
+  margin-left: 48%;
+}
+
+.btn-circle.btn-xl {
+  width: 150px;
+  height: 150px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 100px;
+  background: red;
+  color: white;
+}
+.container {
+  height: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+  }
+
+body, html {
+  height: 100vh;
+}
