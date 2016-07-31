@@ -1,12 +1,24 @@
-hr{
+.top{
   border-top: 1px solid gray;
   margin-top: 0%;
 }
-#submit_btn{
-  margin-left: 48%;
+.bottom{
+  border-bottom: 1px solid gray;
+  margin-top: 0%;
+}
+.streetAddress2{
+  margin-top: 2%;
+}
+.locationTitle{
+  text-align: center;
+  margin-top:1%;
+  margin-bottom: -2%;
+}
+.submit_btn{
+  margin-left: 89%;
 }
 
-.btn-circle.btn-xl {
+/*.btn-circle.btn-xl {
   width: 150px;
   height: 150px;
   padding: 10px 16px;
@@ -15,6 +27,16 @@ hr{
   border-radius: 100px;
   background: red;
   color: white;
+}*/
+
+.btn-circle {
+  width: 144px;
+  height: 49px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 23px;
+  line-height: 1.42;
+  border-radius: 49px;
 }
 .container {
   height: 100%;
@@ -24,4 +46,8 @@ hr{
 
 body, html {
   height: 100vh;
+}
+
+.logo{
+  margin-top: 2%;
 }

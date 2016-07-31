@@ -1,25 +1,4 @@
-
 var app = angular.module('app', ['ngRoute']);
-
-// var API = 'http://localhost:8000';
-// var order = {
-//   quantity: null,
-//   grind: null,
-//   total: null
-// };
-// var address = {
-//   name: null,
-//   address: null,
-//   address2: null,
-//   city:null,
-//   state: null,
-//   zipCode: null,
-//   deliveryDate: null
-// };
-// var credentials = {
-//   username: null,
-//   pswd: null
-// };
 
 app.config(function($routeProvider){
     $routeProvider
@@ -34,9 +13,9 @@ app.config(function($routeProvider){
       templateUrl: 'search.html'
     })
 
-    .when('/submit', {
-      controller:  'submitController',
-      templateUrl: 'submit.html'
+    .when('/review', {
+      controller:  'reviewController',
+      templateUrl: 'review.html'
     })
     .when('/succesfullSubmit',{
       controller: 'succesfullSubmitController',
@@ -46,17 +25,17 @@ app.config(function($routeProvider){
 
 
 app.controller('MainController', function($scope, $location){
-  $scope.search = function(){
+  $scope.gotToSearch = function(){
     $location.path('/search');
   };
 });
 app.controller('searchController', function($scope,$location){
-  $scope.search = function(){
-    $location.path('/submit');
+  $scope.gotToReview = function(){
+    $location.path('/review');
   };
 });
-app.controller('submitController', function($scope, $location){
-  $scope.search = function(){
+app.controller('reviewController', function($scope, $location){
+  $scope.gotToSumbit = function(){
     $location.path('/succesfullSubmit');
   };
 });
