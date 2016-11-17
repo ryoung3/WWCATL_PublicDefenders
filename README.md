@@ -25,3 +25,5 @@
     Team: Public Defenders : 
     Ayanna Kosoko, Elle Chun, Jassimran Somal, Lynsey Ham, Nikaylah Woody, Ronique Young and Shanda Kennedy created this app as part of Women Who Code Hackathon Atlanta
   
+<h2 align="center"> Update: </h2>
+The full code for this application can be found here: <a href="https://github.com/jassimran/WWCATL_PublicDefenders"> jassimran/WWCATL_PublicDefenders</a>
